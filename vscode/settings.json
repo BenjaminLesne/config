@@ -10,6 +10,8 @@
     "workbench.tree.renderIndentGuides": "always",
     "workbench.editor.enablePreview": false,
     "emmet.triggerExpansionOnTab": true,
+    "terminal.integrated.scrollback": 9999,
+    "jest.autoRun": "off",
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
