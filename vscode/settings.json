@@ -12,6 +12,7 @@
     "emmet.triggerExpansionOnTab": true,
     "terminal.integrated.scrollback": 9999,
     "jest.autoRun": "off",
+    "editor.formatOnSaveMode": "modifications",
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
