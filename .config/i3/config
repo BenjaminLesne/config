@@ -198,7 +198,6 @@ assign [class="Alacritty"] 2
 assign [class="Firefox|firefox|Navigator"] 3
 assign [all] 4
 
-exec --no-startup-id xinput set-prop 9 'libinput Accel Speed' 0
-exec --no-startup-id xinput set-prop 9 'Coordinate Transformation Matrix' 0.9 0 0 0 0.9 0 0 0 0.9
-exec --no-startup-id xinput set-prop 9 'libinput Accel Profile Enabled' 0 1
+exec --no-startup-id bash -c "setupMouse"
+
 
