@@ -196,7 +196,7 @@ exec_always --no-startup-id "killall polybar; polybar -r default"
 assign [class="vscodium|VSCodium|code|Code"] 1
 assign [class="Alacritty"] 2
 assign [class="Firefox|firefox|Navigator"] 3
-assign [class="Playwright Inspector"] 4
+assign [class="text_html|Codium-url-handler"] 4
 assign [all] 4
 
 exec --no-startup-id bash -c "setupMouse"

@@ -8,4 +8,4 @@ setupMouse() {
   xinput set-prop "$DEVICE_ID" 'Coordinate Transformation Matrix' 0.9 0 0 0 0.9 0 0 0 0.9
   xinput set-prop "$DEVICE_ID" 'libinput Accel Profile Enabled' 0 1
 }
-
+alias getWindowName="xprop | grep WM_CLASS"
